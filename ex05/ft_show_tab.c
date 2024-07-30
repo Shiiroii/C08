@@ -1,27 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_boolean.h                                       :+:      :+:    :+:   */
+/*   ft_show_tab.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: liulm <liulm@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/30 14:11:26 by liulm             #+#    #+#             */
-/*   Updated: 2024/07/30 19:16:53 by liulm            ###   ########.fr       */
+/*   Created: 2024/07/30 19:45:18 by liulm             #+#    #+#             */
+/*   Updated: 2024/07/30 20:01:30 by liulm            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_BOOLEAN_H
-# define FT_BOOLEAN_H
+void	ft_putstr(char *str)
+{
+	int	i;
 
-# include <unistd.h>
+	i = 0;
+	while (str[i])
+	{
+		write(1, &str[i], 1);
+		i++;
+	}
+}
 
-# define EVEN(nbr)	(nbr % 2 == 0)
-# define TRUE		1
-# define FALSE		0
-# define SUCCESS	0
-# define EVEN_MSG	"I have an even number of arguments"
-# define ODD_MSG	"I have an odd number of arguments"
+void	ft_show_tab(struct s_stock_str *par)
+{
+	int	i;
 
-typedef int	t_bool;
-
-#endif
+	while ()
+}
