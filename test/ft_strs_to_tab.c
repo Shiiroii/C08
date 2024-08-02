@@ -6,7 +6,7 @@
 /*   By: lionelulm <lionelulm@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/30 18:35:13 by liulm             #+#    #+#             */
-/*   Updated: 2024/08/03 01:20:17 by lionelulm        ###   ########.fr       */
+/*   Updated: 2024/08/03 01:18:10 by lionelulm        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 
 // ---------------------------------------------------
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int	main(int ac, char **av)
 {
@@ -89,4 +89,4 @@ int	main(int ac, char **av)
 		printf("%d\n", str[i].size);
 		i++;
 	}
-}
+}*/
