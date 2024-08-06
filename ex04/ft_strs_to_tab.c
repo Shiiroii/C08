@@ -89,4 +89,6 @@ int	main(int ac, char **av)
 		printf("%d\n", str[i].size);
 		i++;
 	}
+	free(str);
+	return (0);
 }
